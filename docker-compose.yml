@@ -9,7 +9,7 @@ services:
       - 50000:50000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /root/jenkins/jenkins-data:/var/jenkins_home
+      - ./jenkins-data:/var/jenkins_home
     restart: always
     environment:
       - TZ=America/Toronto    
