@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    ports:
+      - 80:8080
+      - 50000:50000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /root/jenkins/jenkins-data:/var/jenkins_home
+    restart: always
+    environment:
+      - TZ=America/Toronto    
