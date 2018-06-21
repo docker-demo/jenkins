@@ -13,3 +13,8 @@ services:
     restart: always
     environment:
       - TZ=America/Toronto    
+services:
+  registry:
+    image: registry:2
+    container_name: registry
+    restart: always
