@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.OrganizationFolder_-State plugin="branch-api@2.0.20">
+  <actions>
+    <entry>
+      <string>org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator::https://api.github.com::docker-demo</string>
+      <list>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.7">
+          <objectUrl>https://github.com/docker-demo</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+        <org.jenkinsci.plugins.github__branch__source.GitHubOrgMetadataAction plugin="github-branch-source@2.3.6">
+          <avatar>https://avatars2.githubusercontent.com/u/40429776?v=4</avatar>
+        </org.jenkinsci.plugins.github__branch__source.GitHubOrgMetadataAction>
+        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.3.6">
+          <iconClassName>icon-github-logo</iconClassName>
+          <url>https://github.com/docker-demo</url>
+        </org.jenkinsci.plugins.github__branch__source.GitHubLink>
+      </list>
+    </entry>
+  </actions>
+</jenkins.branch.OrganizationFolder_-State>
